@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>3 angular的模块化</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<!--制定使用的模块名和控制器名-->
+<body ng-app="waterApp" ng-controller="myControl">
+
+<input type="number" ng-model="num1">
++
+<input type="number" ng-model="num2">
+<input type="button" ng-click="add()" value="=">
+<input type="number" ng-model="num3">
+
+<script>
+//    模块名,数组
+    var app = angular.module("waterApp",[])
+//    $scope 将数据传输到页面上,这不是一个形参
+    app.controller("myControl",function ($scope) { // 创建控制器
+        $scope.add = function () {
+            $scope.num3 = $scope.num1 + $scope.num2
+        }
+    })
+</script>
+</body>
+</html>

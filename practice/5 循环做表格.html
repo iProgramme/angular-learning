@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>6 循环做表格</title>
+    <style>
+        table{
+            width:800px;
+            border-collapse:collapse;
+            margin:0 auto;
+        }
+        td,th{
+            border: 1px solid #000;
+            padding:10px;
+            text-align: center;
+        }
+        tr.bg{
+            background-color: red;
+            color:#fff
+        }
+    </style>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<table>
+    <tr>
+        <th ng-repeat="(key,value) in arr[0]">{{key}}</th>
+    </tr>
+    <tr ng-repeat="item in arr">
+        <td ng-repeat="(key,value) in item">{{value}}</td>
+    </tr>
+</table>
+<script>
+    var app = angular.module("myApp",[])
+    app.controller("myCtrl",function ($scope) {
+        $scope.arr=[
+            {name:"热一",age:26,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热二",age:25,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热三",age:24,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热四",age:23,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热五",age:22,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热六",age:21,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热七",age:20,sex:"女",hobby:"电影",love:"电视"},
+            {name:"热巴",age:19,sex:"女",hobby:"电影",love:"电视"}
+        ]
+    })
+</script>
+</body>
+</html>
