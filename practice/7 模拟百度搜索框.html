@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>7 模拟百度搜索框</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 400px;
+            margin: 200px auto;
+            /*border: 1px solid #000;*/
+        }
+
+        .txtSearch {
+            width: 300px;
+        }
+
+        .pop {
+            width: 300px;
+            border: 1px solid red;
+            padding: 0px;
+        }
+
+        .pop ul {
+            list-style-type: none;
+            margin: 5px;
+            padding: 0px;
+        }
+
+    </style>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body>
+<div class="box" ng-app="myApp" ng-controller="myCtrl">
+    <input type="text" class="txtSearch" ng-model="value" ng-keyup="keyup(value)" ng-keydown="keydown()"/>
+    <input type="button" value="搜索" class="btnSearch"/>
+    <div class="pop" ng-show="value&&flag">
+        <ul>
+            <li ng-repeat="item in strp track by $index" ng-click="push(item)" ng-bind="item"></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    var app = angular.module("myApp",[])
+    app.controller("myCtrl",function ($scope) {
+        $scope.flag = true
+        $scope.strs =["a","ab","abc","bcd","abcde","acc","amm","mmm","kkk"];
+        $scope.strp = []
+        $scope.keyup = function (value) {
+            for (var i = 0; i < $scope.strs.length; i++) {
+                if ($scope.strs[i].indexOf(value)==0) {
+                    $scope.strp.push($scope.strs[i])
+                }
+            }
+            $scope.flag = true
+        }
+        $scope.keydown = function () {
+            $scope.strp = []
+            $scope.flag = false
+        }
+        $scope.push = function (item) {
+            $scope.value = item
+            $scope.flag = false
+        }
+    })
+</script>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>9 多个tab栏切换</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .box {
+            width: 400px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 100px auto;
+        }
+
+        .hd {
+            height: 45px;
+        }
+
+        .hd span {
+            display: inline-block; /*将行内元素转换成行内块元素，宽高才起作用*/
+            width: 25%;
+            background-color: pink;
+            line-height: 45px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .hd span.current {
+            background-color: purple; /*紫色*/
+            color: #fff;
+        }
+
+        .bd li {
+            height: 255px;
+            background-color: purple;
+            display: none; /*设置隐藏*/
+        }
+
+        .bd li.current {
+            display: block; /*显示*/
+            color: #fff;
+        }
+    </style>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="box">
+    <div class="hd">
+        <span ng-class="{'current':check == $index}" ng-repeat="item1 in tab1 track by $index" ng-click="add($index)" ng-bind="item1"></span>
+    </div>
+    <!--<div class="bd">-->
+        <!--<ul>-->
+            <!--<li ng-class="{'current':$index}" ng-bind="item2" ng-repeat="item2 in tab2"></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
+<script>
+    var app = angular.module("myApp",[])
+    app.controller("myCtrl",function ($scope) {
+        $scope.tab1 = ["体育","娱乐","新闻","综合"]
+        $scope.tab2 = ["我是体育模块","我是娱乐模块","我是新闻模块","我是综合模块"]
+        $scope.flag = false
+        $scope.add = function (check) {
+            $scope.check=check;
+        }
+    })
+
+</script>
+
+

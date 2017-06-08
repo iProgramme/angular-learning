@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>6 全选和取消全选</title>
+    <style>
+
+    </style>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<input type="checkbox" ng-click="all()" ng-model="check">全选<br>
+
+
+<input type="checkbox" ng-click="bian()" ng-model="arr[$index]" ng-repeat="item in arr track by $index">小功能<br>
+<script>
+    var app = angular.module("myApp", [])
+    app.controller("myCtrl", function ($scope) {
+        $scope.check1 = true
+        $scope.arr = [
+            $scope.check1,
+            $scope.check2,
+            $scope.check3,
+            $scope.check4,
+            $scope.check5,
+            $scope.check6,
+            $scope.check7,
+            $scope.check8,
+            $scope.check9,
+            $scope.check10,
+            $scope.check11,
+            $scope.check12
+        ]
+        $scope.bian = function () {
+            for (var i = 0; i < $scope.arr.length; i++) {
+                if (!$scope.arr[i]) {
+                    $scope.check = false
+                    return
+                }
+            }
+            $scope.check = true
+        }
+        $scope.all = function () {
+            for (var i = 0; i < $scope.arr.length; i++) {
+                $scope.arr[i] = $scope.check
+            }
+        }
+    })
+</script>
+</body>
+</html>
