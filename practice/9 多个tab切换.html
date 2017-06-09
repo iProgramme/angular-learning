@@ -56,11 +56,11 @@
     <div class="hd">
         <span ng-class="{'current':check == $index}" ng-repeat="item1 in tab1 track by $index" ng-click="add($index)" ng-bind="item1"></span>
     </div>
-    <!--<div class="bd">-->
-        <!--<ul>-->
-            <!--<li ng-class="{'current':$index}" ng-bind="item2" ng-repeat="item2 in tab2"></li>-->
-        <!--</ul>-->
-    <!--</div>-->
+    <div class="bd">
+        <ul>
+            <li ng-class="{'current':check == $index}" ng-bind="item2" ng-repeat="item2 in tab2"></li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
@@ -69,7 +69,6 @@
     app.controller("myCtrl",function ($scope) {
         $scope.tab1 = ["体育","娱乐","新闻","综合"]
         $scope.tab2 = ["我是体育模块","我是娱乐模块","我是新闻模块","我是综合模块"]
-        $scope.flag = false
         $scope.add = function (check) {
             $scope.check=check;
         }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>10 一个ng-app可以有多个控制器</title>
+
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" >
+<div ng-controller="myCtrl1">
+    {{text}}
+</div>
+<div ng-controller="myCtrl2">
+    {{text}}
+</div>
+</body>
+</html>
+<script>
+//    方式一:一个模块可以有多个控制器
+//    var app = angular.module("myApp",[])
+//    app.controller("myCtrl1",function ($scope) {
+//        $scope.text = "app1"
+//    })
+//    app.controller("myCtrl2",function ($scope) {
+//        $scope.text = "app2"
+//    })
+
+
+//    方式二:合并模块,注意第一个数组里面的参数是第二个模块的名称,而不是定义的变量
+    var app = angular.module("myApp",["myApp2"])
+    app.controller("myCtrl1",function ($scope) {
+        $scope.text = "app1"
+    })
+    var app2 = angular.module("myApp2",[])
+    app2.controller("myCtrl2",function ($scope) {
+        $scope.text = "app2"
+    })
+</script>
+
+

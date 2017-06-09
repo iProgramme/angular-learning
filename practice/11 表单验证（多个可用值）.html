@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>10 一个ng-app可以有多个控制器</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="../angular-1.5.8/angular.js"></script>
+    <style>
+        .center{
+            width: 400px;
+            margin:30px auto
+        }
+    </style>
+</head>
+<body ng-app="myApp"  ng-controller="myCtrl1">
+    <form name="all" class="center" novalidate ng-submit="sub()">
+        <div class="form-group">
+            <label>用户名</label>
+            <input name="username" type="text" ng-minlength="6" ng-maxlength="16" ng-model="allname.username" required>
+            <!--<p><pre>{{all.username | json}}</pre></p>-->
+            <p ng-bind="value"></p>
+            <p ng-show="all.username.$touched&&all.username.$error.required">必填项</p>
+            <p ng-show="all.username.$error.minlength||all.username.$error.maxlength">长度必须为6-16个字符</p>
+
+        </div>
+
+        <!--密码-->
+        <div class="form-group">
+            <label>密码</label>
+            <input name="pwd" type="password" ng-minlength="4" ng-maxlength="8" ng-model="allname.pwd" required>
+            <p ng-show="all.pwd.$touched&&all.pwd.$error.required">必填项</p>
+            <p ng-show="all.pwd.$error.minlength||all.pwd.$error.maxlength">长度必须为4-8个字符</p>
+        </div>
+        <div class="form-group">
+            <label>确认密码</label>
+            <input name="pwd2" type="password" ng-minlength="4" ng-maxlength="8" ng-model="pwd2" required>
+            <p ng-show="(pwd2!=allname.pwd)&&all.pwd2.$touched">两次密码不一致</p>
+        </div>
+
+        <!--注册-->
+        <button class="btn btn-primary">注册</button>
+    </form>
+</body>
+</html>
+<script>
+    function Users(data) {
+        this.Userdata = data
+    }
+    Users.prototype.adddata = function () {
+//        localStorage["app"]  这个本身是个字符串
+        console.log(this)
+        var str = localStorage["app"]||'[]'
+        var arr = JSON.parse(str)
+
+//        console.log(arr)
+        for (var i = 0; i < arr.length; i++) {
+            if (arr[i].username===this.Userdata.username) {
+//                console.log(i)
+                return false  // 这里需要拿到这个 false 来回到 controller做运算
+            }
+        }
+//        如果找不到相同项,则添加并返回 true
+        arr.push(this.Userdata)
+        localStorage["app"] = JSON.stringify(arr)
+        return true
+    }
+    var app = angular.module("myApp",[])
+    app.controller("myCtrl1",function ($scope) {
+        $scope.allname = {}
+        $scope.sub = function () {
+//            console.log($scope.allname)
+            var data = new Users($scope.allname)
+            if (data.adddata()) {
+                alert("登陆成功")
+            }else {
+                alert("登陆失败")
+            }
+        }
+    })
+
+
+</script>
+
+
