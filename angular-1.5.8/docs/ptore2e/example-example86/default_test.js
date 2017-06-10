@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example86/index.html");
+    browser.get("build/docs/examples/example-example86/index1.html");
   });
   
 it('should alias index positions', function() {

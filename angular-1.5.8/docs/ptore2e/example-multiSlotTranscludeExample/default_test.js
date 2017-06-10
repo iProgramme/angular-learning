@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-multiSlotTranscludeExample/index.html");
+    browser.get("build/docs/examples/example-multiSlotTranscludeExample/index1.html");
   });
   
 it('should have transcluded the title and the body', function() {

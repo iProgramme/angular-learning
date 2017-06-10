@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-directive-decorator/index.html");
+    browser.get("build/docs/examples/example-directive-decorator/index1.html");
   });
   
 it('should warn when an expression in the interpolated value is falsy', function() {

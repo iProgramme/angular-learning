@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-filter-decorator/index.html");
+    browser.get("build/docs/examples/example-filter-decorator/index1.html");
   });
   
 it('should default date filter to short date format', function() {

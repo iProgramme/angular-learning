@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example67/index.html");
+    browser.get("build/docs/examples/example-example67/index1.html");
   });
   
 it('should check ng-class-odd and ng-class-even', function() {

@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-orderBy-static/index.html");
+    browser.get("build/docs/examples/example-orderBy-static/index1.html");
   });
   
 // Element locators

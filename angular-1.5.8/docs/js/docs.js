@@ -387,7 +387,7 @@ angular.module('examples', [])
             .then(function(response) {
 
               // The manifests provide the production index file but Plunkr wants
-              // a straight index.html
+              // a straight index1.html
               if (filename === "index-production.html") {
                 filename = "index.html";
               }

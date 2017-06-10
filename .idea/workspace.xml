@@ -2,17 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497e43fd-d45b-4146-9c61-f456b0969e61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/12 自定义指令.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/13 自定义指令,外部传.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/14 自定义指令,模板.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/15 自定义指令,双向数据绑定.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/16 独立 tab 切换.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/17 过滤器 filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/template.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/practice/12 表单验证.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular笔记.numbers" afterPath="$PROJECT_DIR$/angular笔记.numbers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-template-master/index1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-template-master/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todomvc-app-template-master/js/app2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/8 微博发布案例.html" afterPath="$PROJECT_DIR$/practice/8 微博发布案例.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-hashbang-mode/app.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-hashbang-mode/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-hashbang-mode/protractor.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-hashbang-mode/protractor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-html5-mode/app.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/examples/example-location-html5-mode/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/js/docs.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/js/docs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-$route-service/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-$route-service/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-NgModelController/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-NgModelController/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-checkbox-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-checkbox-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-custom-interpolation-markup/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-custom-interpolation-markup/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-date-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-date-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-datetimelocal-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-datetimelocal-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-directive-decorator/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-directive-decorator/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-email-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-email-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example.csp/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example.csp/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example100/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example100/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example101/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example101/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example102/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example102/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example103/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example103/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example104/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example104/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example108/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example108/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example109/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example109/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example11/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example11/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example110/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example110/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example111/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example111/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example25/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example25/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example26/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example26/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example27/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example27/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example29/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example29/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example41/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example41/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example42/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example42/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example46/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example46/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example53/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example53/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example54/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example54/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example55/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example55/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example56/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example56/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example57/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example57/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example58/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example58/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example59/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example59/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example60/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example60/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example61/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example61/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example62/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example62/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example63/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example63/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example64/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example64/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example65/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example65/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example66/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example66/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example67/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example67/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example68/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example68/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example69/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example69/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example80/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example80/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example85/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example85/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example86/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example86/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example88/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example88/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example89/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example89/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example90/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example90/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example91/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example91/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example92/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example92/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example93/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example93/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example94/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example94/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example95/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example95/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example96/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example96/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example98/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example98/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example99/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-example99/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-filter-decorator/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-filter-decorator/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-hashbang-mode/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-hashbang-mode/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-hashbang-mode/jquery_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-hashbang-mode/jquery_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-html5-mode/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-location-html5-mode/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-month-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-month-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-multiSlotTranscludeExample/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-multiSlotTranscludeExample/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngChange-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngChange-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngController/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngController/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngControllerAs/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngControllerAs/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngList-directive-newlines/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngList-directive-newlines/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngList-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngList-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMaxlengthDirective/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMaxlengthDirective/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMessageFormat-example-plural/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMessageFormat-example-plural/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMinlengthDirective/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngMinlengthDirective/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngModelOptions-directive-blur/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngModelOptions-directive-blur/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngPatternDirective/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngPatternDirective/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngRepeat/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngRepeat/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngRequiredDirective/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngRequiredDirective/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngValue-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngValue-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngView-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-ngView-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-number-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-number-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-call-manually/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-call-manually/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-custom-comparator/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-custom-comparator/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-dynamic/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-dynamic/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-static/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-orderBy-static/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-radio-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-radio-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-select-with-non-string-options/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-select-with-non-string-options/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-service-decorator/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-service-decorator/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-simpleTranscludeExample/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-simpleTranscludeExample/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-text-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-text-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-time-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-time-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-url-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-url-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-week-input-directive/default_test.js" afterPath="$PROJECT_DIR$/angular-1.5.8/docs/ptore2e/example-week-input-directive/default_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todomvc-app-template-master/index.html" afterPath="$PROJECT_DIR$/todomvc-app-template-master/index.html" />
     </list>
     <ignored path="angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +124,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="28" column="96" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="96" />
+            <state relative-caret-position="432">
+              <caret line="30" column="116" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="116" />
               <folding>
                 <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -48,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app.js">
+      <file leaf-file-name="app2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -100,6 +189,8 @@
         <option value="$PROJECT_DIR$/todomvc-app-template-master/index1.html" />
         <option value="$PROJECT_DIR$/todomvc-app-template-master/index.html" />
         <option value="$PROJECT_DIR$/todomvc-app-template-master/js/app.js" />
+        <option value="$PROJECT_DIR$/todomvc-app-template-master/index2.html" />
+        <option value="$PROJECT_DIR$/todomvc-app-template-master/js/app2.js" />
       </list>
     </option>
   </component>
@@ -187,25 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="todomvc-app-template-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todomvc-app-template-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,6 +302,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todomvc-app-template-master/js" />
       <recent name="$PROJECT_DIR$/todomvc-app-template-master" />
       <recent name="$PROJECT_DIR$/practice" />
     </key>
@@ -305,12 +379,12 @@
       <workItem from="1496881998666" duration="18231000" />
       <workItem from="1496919103637" duration="4000" />
       <workItem from="1496969934805" duration="8819000" />
-      <workItem from="1497055576305" duration="16650000" />
+      <workItem from="1497055576305" duration="18265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56932000" />
+    <option name="totallyTimeSpent" value="58547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -319,6 +393,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1564734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -331,7 +406,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -528,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/14 自定义指令,模板.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="e#452#929#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/15 自定义指令,双向数据绑定.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -621,10 +685,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="28" column="96" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="96" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -632,10 +712,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app.js">
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state relative-caret-position="432">
+          <caret line="30" column="116" selection-start-line="30" selection-start-column="108" selection-end-line="30" selection-end-column="116" />
+          <folding>
+            <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/14 自定义指令,模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#452#929#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>

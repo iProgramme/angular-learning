@@ -2,7 +2,7 @@ describe("", function() {
   var rootEl;
   beforeEach(function() {
     rootEl = browser.rootEl;
-    browser.get("build/docs/examples/example-example104/index.html");
+    browser.get("build/docs/examples/example-example104/index1.html");
   });
   
   var status = element(by.binding('status'));

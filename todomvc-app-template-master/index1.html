@@ -4,16 +4,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Template • TodoMVC</title>
-		<link rel="stylesheet" href="node_modules/todomvc-common/base.css">
 		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
 		<!-- CSS overrides - remove if you don't need it -->
 		<link rel="stylesheet" href="css/app.css">
+		<script src="../angular-1.5.8/angular.js"></script>
 	</head>
-	<body>
+	<body ng-app="todo" ng-controller="dome">
 		<section class="todoapp">
 			<header class="header">
-				<h1>todos</h1>
-				<input class="new-todo" placeholder="What needs to be done?" autofocus>
+				<h1>todo</h1>
+				<form ng-submit="add()">
+					<input class="new-todo" placeholder="What needs to be done?" autofocus ng-model="value">
+				</form>
 			</header>
 			<!-- This section should be hidden by default and shown when there are todos -->
 			<section class="main">
@@ -22,21 +24,13 @@
 				<ul class="todo-list">
 					<!-- These are here just to show the structure of the list items -->
 					<!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
-					<li class="completed">
+					<li ng-repeat="item in list track by $index" ng-class="{'completed':item.status,'editing':index==$index}">
 						<div class="view">
-							<input class="toggle" type="checkbox" checked>
-							<label>Taste JavaScript</label>
-							<button class="destroy"></button>
+							<input class="toggle" type="checkbox" checked ng-model="item.status">
+							<label ng-dblclick="edit($index)">{{item.value}}</label>
+							<button class="destroy" ng-click="del($index)"></button>
 						</div>
-						<input class="edit" value="Create a TodoMVC template">
-					</li>
-					<li>
-						<div class="view">
-							<input class="toggle" type="checkbox">
-							<label>Buy a unicorn</label>
-							<button class="destroy"></button>
-						</div>
-						<input class="edit" value="Rule the web">
+						<input type="text" class="edit" value="Create a TodoMVC template" ng-model="item.value" ng-blur="blur()">
 					</li>
 				</ul>
 			</section>
@@ -68,8 +62,9 @@
 			<p>Created by <a href="http://todomvc.com">you</a></p>
 			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
 		</footer>
-		<!-- Scripts here. Don't remove ↓ -->
-		<script src="node_modules/todomvc-common/base.js"></script>
 		<script src="js/app.js"></script>
 	</body>
+	<script>
+
+	</script>
 </html>
