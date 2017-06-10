@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497e43fd-d45b-4146-9c61-f456b0969e61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/10 一个页面只能有一个ng-app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/11 表单验证（多个可用值）.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/12 表单验证.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/12 自定义指令.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/13 自定义指令,外部传.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/14 自定义指令,模板.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/15 自定义指令,双向数据绑定.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/16 独立 tab 切换.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/17 过滤器 filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/template.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/practice/12 表单验证.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular笔记.numbers" afterPath="$PROJECT_DIR$/angular笔记.numbers" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/9 多个tab切换.html" afterPath="$PROJECT_DIR$/practice/9 多个tab切换.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/8 微博发布案例.html" afterPath="$PROJECT_DIR$/practice/8 微博发布案例.html" />
     </list>
     <ignored path="angular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +35,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11 表单验证（多个可用值）.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice/11 表单验证（多个可用值）.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="232">
+              <caret line="28" column="96" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="96" />
+              <folding>
+                <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12 表单验证.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice/12 表单验证.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+            <state relative-caret-position="600">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -73,7 +81,6 @@
         <option value="$PROJECT_DIR$/practice/5 循环做表格.html" />
         <option value="$PROJECT_DIR$/practice/4 repeat循环和tab切换.html" />
         <option value="$PROJECT_DIR$/practice/7 模拟百度搜索框.html" />
-        <option value="$PROJECT_DIR$/practice/8 微博发布案例.html" />
         <option value="$PROJECT_DIR$/practice/6 全选和取消全选.html" />
         <option value="$PROJECT_DIR$/practice/9 多个tab切换.html" />
         <option value="$PROJECT_DIR$/practice/10 一个ng-app可以有多个controllar.html" />
@@ -81,6 +88,18 @@
         <option value="$PROJECT_DIR$/practice/11 表单验证.html" />
         <option value="$PROJECT_DIR$/practice/12 表单验证.html" />
         <option value="$PROJECT_DIR$/practice/11 表单验证（多个可用值）.html" />
+        <option value="$PROJECT_DIR$/practice/12 自定义指令.html" />
+        <option value="$PROJECT_DIR$/practice/13 自定义指令,外部传.html" />
+        <option value="$PROJECT_DIR$/practice/template.html" />
+        <option value="$PROJECT_DIR$/practice/14 自定义指令,模板.html" />
+        <option value="$PROJECT_DIR$/practice/15 自定义指令,双向数据绑定.html" />
+        <option value="$PROJECT_DIR$/practice/16 独立 tab 切换.html" />
+        <option value="$PROJECT_DIR$/practice/17 过滤器 filter.html" />
+        <option value="$PROJECT_DIR$/practice/8 微博发布案例.html" />
+        <option value="$PROJECT_DIR$/practice/qq.html" />
+        <option value="$PROJECT_DIR$/todomvc-app-template-master/index1.html" />
+        <option value="$PROJECT_DIR$/todomvc-app-template-master/index.html" />
+        <option value="$PROJECT_DIR$/todomvc-app-template-master/js/app.js" />
       </list>
     </option>
   </component>
@@ -140,7 +159,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -169,7 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
+              <option name="myItemId" value="todomvc-app-template-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,12 +201,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-1.5.8" />
+              <option name="myItemId" value="todomvc-app-template-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,6 +229,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todomvc-app-template-master" />
       <recent name="$PROJECT_DIR$/practice" />
     </key>
   </component>
@@ -281,17 +305,18 @@
       <workItem from="1496881998666" duration="18231000" />
       <workItem from="1496919103637" duration="4000" />
       <workItem from="1496969934805" duration="8819000" />
+      <workItem from="1497055576305" duration="16650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40282000" />
+    <option name="totallyTimeSpent" value="56932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18903892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1564734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -328,6 +353,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/practice/11 表单验证（多个可用值）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/12 表单验证.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/angular-1.5.8/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -395,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/8 微博发布案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1065">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/6 全选和取消全选.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -423,19 +457,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-1.5.8/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-1.5.8/version.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,26 +468,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/9 多个tab切换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/readme.md" />
     <entry file="file://$PROJECT_DIR$/practice/10 一个页面只能有一个ng-app.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -481,7 +490,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/12 表单验证.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="1843">
           <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
           <folding />
         </state>
@@ -489,8 +498,144 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/11 表单验证（多个可用值）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="218">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/12 自定义指令.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/13 自定义指令,外部传.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/14 自定义指令,模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <element signature="e#452#929#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/15 自定义指令,双向数据绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/qq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/16 独立 tab 切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/17 过滤器 filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#481#487#0" expanded="false" />
+            <element signature="e#487#493#0" expanded="false" />
+            <element signature="e#493#499#0" expanded="false" />
+            <element signature="e#499#505#0" expanded="false" />
+            <element signature="e#505#511#0" expanded="false" />
+            <element signature="e#511#517#0" expanded="false" />
+            <element signature="e#725#731#0" expanded="false" />
+            <element signature="e#731#737#0" expanded="false" />
+            <element signature="e#737#743#0" expanded="false" />
+            <element signature="e#743#749#0" expanded="false" />
+            <element signature="e#749#755#0" expanded="false" />
+            <element signature="e#755#761#0" expanded="false" />
+            <element signature="e#974#980#0" expanded="false" />
+            <element signature="e#980#986#0" expanded="false" />
+            <element signature="e#986#992#0" expanded="false" />
+            <element signature="e#992#998#0" expanded="false" />
+            <element signature="e#998#1004#0" expanded="false" />
+            <element signature="e#1004#1010#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/8 微博发布案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="106" selection-start-line="48" selection-start-column="106" selection-end-line="48" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/9 多个tab切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-1.5.8/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="28" column="96" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="96" />
+          <folding>
+            <element signature="n#footer#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todomvc-app-template-master/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
         </state>
       </provider>

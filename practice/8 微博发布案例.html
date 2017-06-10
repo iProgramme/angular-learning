@@ -46,7 +46,7 @@
     <textarea cols="30" rows="10" ng-model="value"></textarea>
     <button ng-click="fabu()">发布</button>
     <ul>
-        <li ng-repeat="item in arr"> {{item}}<input type="button" value="删除" ng-click="app($index)"/></li>
+        <li ng-repeat="item in arr track by $index"> {{item}}<input type="button" value="删除" ng-click="app($index)"/></li>
     </ul>
 </div>
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>12 自定义指令,模板</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body ng-app="myApp">
+<div>
+    <mytem nav="这个是导航" link="这个是地址"></mytem>
+</div>
+
+
+<!--<script type="text/ng-template" id="tmp">
+    <div class="container">
+        <ul class="list-group col-md-4" >
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
+</script>-->
+<script>
+    var app = angular.module("myApp", [])
+//    app.controller("myCtrl",function ($scope) {
+////        $scope.add = "这是啥啊这"
+//    })
+//    若使用 myTem ,则在html里面的标签应该写成 <my-tem></my-tem>
+    app.directive("mytem",function () {
+        return {
+            // 防止模板的 id 或者路径
+            templateUrl:"template.html",
+            scope:{
+                nav:"@",
+                link:"@"   // @ 表示字符串 , = 表示变量
+            },
+//            去壳
+            replace:true
+        }
+    })
+</script>
+</body>
+</html>

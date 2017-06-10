@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>12 自定义指令,模板</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body ng-app="myApp">
+<div ng-controller="myCtrl">
+    <mytem nav="这个是导航" text="text" click2="click3()"></mytem>
+</div>
+<script type="text/ng-template" id="tmp">
+    <div class="container">
+        <ul class="list-group col-md-4" >
+            <li class="list-group-item">{{nav}}</li>
+            <li class="list-group-item">{{text}}</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <input type="text" ng-model="text">
+        <button class="btn btn-primary" ng-click="click1()">按钮</button>
+    </div>
+</script>
+<script>
+    var app = angular.module("myApp", [])
+    app.directive("mytem",function () {
+        return {
+            templateUrl:"tmp",
+            scope:{
+                nav:"@",
+                text:"=",
+                click1:"&click2"
+            },
+            replace:true
+        }
+    })
+    app.controller("myCtrl",function ($scope) {
+        $scope.text = "这个是由变量传过来的值"
+        $scope.click3 = function () {
+            console.log(1)
+        }
+    })
+</script>
+</body>
+</html>

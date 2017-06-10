@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>17 过滤器和orderBy</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<input type="text" ng-model="value">
+
+<ul>
+    <li ng-repeat="item in list | filter : value" >
+        <span>{{item.name}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>{{item.phone}}</span>
+    </li>
+</ul>
+<br>
+<span>按name搜</span><input type="text" ng-model="app">
+<ul>
+    <li ng-repeat="item in list | filter : {name:app}" >
+        <span>{{item.name}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>{{item.phone}}</span>
+    </li>
+</ul>
+<br>
+<span>name排序</span><input type="checkbox" ng-model="flag">
+<ul>
+    <li ng-repeat="item in list | orderBy : name:flag" >
+        <span>{{item.name}}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>{{item.phone}}</span>
+    </li>
+</ul>
+<script>
+    var app = angular.module("myApp", [])
+    app.controller("myCtrl", function ($scope) {
+        $scope.list=[{name:'John', phone:'555-1276'},
+            {name:'Mary', phone:'800-BIG-MARY'},
+            {name:'Mike', phone:'555-4321'},
+            {name:'Adam', phone:'555-5678'},
+            {name:'Julie', phone:'555-8765'},
+            {name:'Juliette', phone:'555-5678'}]
+    })
+</script>
+</body>
+</html>

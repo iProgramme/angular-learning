@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>12 自定义指令</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp">
+<div>
+    <mytem></mytem>
+    <mytem></mytem>
+    <div mytem></div>
+    <div class="mytem"></div>
+</div>
+
+<script>
+    var app = angular.module("myApp", [])
+//    若使用 myTem ,则在html里面的标签应该写成 <my-tem></my-tem>
+    app.directive("mytem",function () {
+        return {
+            template:"<h2>这是自定义指令的标签</h2>",
+            replace:true,  // 去掉自定义那个标签
+            // 闲置自定义指令的各种形态 A E C M
+            // attr  element  class  commont(注释)
+            restrict:"AEC"
+        }
+    })
+</script>
+</body>
+</html>
