@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>18 创建自己的过滤器</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<input type="text" ng-model="person.value">
+{{person.value}}
+<script>
+    var app = angular.module("myApp", [])
+    app.controller("myCtrl", function ($scope,$filter) {
+//        第一个是新值,第二个是上一个值
+        $scope.$watch("person",function (newVal,oldVal) {
+            console.log(newVal)
+
+//            console.log(newVal)
+        },true)
+
+    })
+//    app.filter("myFilter",function () {
+//        return function (data) {
+////            console.log(data)
+//        }
+//    })
+</script>
+</body>
+</html>

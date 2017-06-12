@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>18 创建自己的过滤器</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+{{date}}
+<script>
+    var app = angular.module("myApp", [])
+    app.controller("myCtrl", function ($scope,$interval) {
+        setInterval(function () {
+            $scope.date = new Date()
+
+//            告诉angular现在要更新一次数据
+            $scope.$apply()
+        },1000)
+
+        $interval(function () {
+            console.log(1)
+        },1000)
+    })
+</script>
+</body>
+</html>

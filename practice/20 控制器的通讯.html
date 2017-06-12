@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>18 创建自己的过滤器</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+</head>
+<body ng-app="myApp" >
+<div ng-controller="ctrl1">
+    <input type="button" value="给子元素发" ng-click="guangbo()">
+    <div ng-controller="ctrl2">
+        <input type="button" value="给父元素发" ng-click="guangbo2()">
+
+    </div>
+</div>
+<script>
+    var app = angular.module("myApp", [])
+    app.controller("ctrl1", function ($scope) {
+        $scope.text = "11111"
+//        给子元素发送数据
+        $scope.guangbo = function () {
+            $scope.$broadcast("son",{"msg":"生活费?"})
+        }
+
+
+//        接收子元素发来的数据
+        $scope.$on("father",function (d1,d2) {
+            console.log(d1)
+            console.log(d2)
+        })
+    })
+    app.controller("ctrl2",function ($scope) {
+        $scope.text = "22222"
+//        接收来自父元素的数据
+        $scope.$on("son",function (d1,d2) {
+            console.log(d1)
+            console.log(d2)
+        })
+
+
+//        给父元素发送数据
+        $scope.guangbo2 = function () {
+            $scope.$emit("father",{"msg":"10k"})
+        }
+    })
+</script>
+</body>
+</html>

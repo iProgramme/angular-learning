@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Template • TodoMVC</title>
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+		<script src="../angular-1.5.8/angular.js"></script>
+	</head>
+	<body>
+		<section class="todoapp" ng-app="todo" ng-controller="dome">
+			<header class="header">
+				<h1>todos{{test}}</h1>
+				<form ng-submit="add()">
+					<input class="new-todo" placeholder="What needs to be done?" autofocus ng-model="value">
+				</form>
+			</header>
+			<!-- This section should be hidden by default and shown when there are todos -->
+			<section class="main">
+				<input class="toggle-all" type="checkbox" ng-model="valueAll">
+				<label for="toggle-all" ng-click="changeAll()">Mark all as complete</label>
+				<ul class="todo-list">
+					<!-- These are here just to show the structure of the list items -->
+					<!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
+					<li ng-class="{completed:item.status,editing:index == $index}" ng-repeat="item in arr | filter : status track by $index">
+						<div class="view">
+							<input class="toggle" type="checkbox" checked ng-model="item.status">
+							<label ng-bind="item.name" ng-dblclick="edit($index)"></label>
+							<button class="destroy" ng-click="del($index)"></button>
+						</div>
+						<input ng-model="item.name" class="edit" value="Create a TodoMVC template" ng-blur="editover()">
+					</li>
+				</ul>
+			</section>
+			<!-- This footer should hidden by default and shown when there are todos -->
+			<footer class="footer">
+				<!-- This should be `0 items left` by default -->
+				<span class="todo-count"><strong>{{left}}</strong> item left</span>
+				<!-- Remove this if you don't implement routing -->
+				<ul class="filters">
+					<li>
+						<a ng-class="{selected:status==undefined}" href="#/" ng-click="select(undefined)">All</a>
+					</li>
+					<li>
+						<a ng-class="{selected:status==false}" href="#/active" ng-click="select(false)">Active</a>
+					</li>
+					<li>
+						<a ng-class="{selected:status==true}" href="#/completed" ng-click="select(true)">Completed</a>
+					</li>
+				</ul>
+				<!-- Hidden if no completed items are left ↓ -->
+				<button class="clear-completed" ng-click="clear()">Clear completed</button>
+			</footer>
+		</section>
+		<footer class="info">
+			<p>Double-click to edit a todo</p>
+			<!-- Remove the below line ↓ -->
+			<p>Template by <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+			<!-- Change this out with your name and url ↓ -->
+			<p>Created by <a href="http://todomvc.com">you</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
+		<script src="js/app4.js"></script>
+	</body>
+</html>
