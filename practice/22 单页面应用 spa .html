@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../angular-1.5.8/angular.js"></script>
+    <script src="../angular-1.5.8/angular-route.js"></script>
+</head>
+<body ng-app="myApp">
+<ul>
+    <li><a href="#/home">首页</a></li>
+    <li><a href="#/shop">商城</a></li>
+    <li><a href="#/me">关于我们</a></li>
+    <li><a href="#/other">其他</a></li>
+</ul>
+<div ng-view></div>
+<script>
+    var app = angular.module("myApp", ["ngRoute"])
+    app.config(function ($routeProvider) {
+        $routeProvider.when("/home",{
+            template:"<h1>这是首页</h1>"
+        }).when("/shop",{
+            template:"<h1>商城</h1>"
+        }).when("/me",{
+            template:"<h1>这是关于我们</h1>"
+        }).when("/other",{
+            template:"<h1>这是其他</h1>"
+        })
+    })
+</script>
+</body>
+</html>
